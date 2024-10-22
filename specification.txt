@@ -1,0 +1,53 @@
+HTML tags
+1:"DIV"
+2:"H1"
+3:"IMG"
+4:"H2"
+5:"TABLE"
+6:"TBODY"
+7:"TR"
+8:"TD"
+9:"UL"
+10:"LI"
+11:"H3"
+12:"BUTTON"
+13:"SCRIPT"
+14:"FOOTER"
+15:"HEADER"
+16:"NAV"
+17:"SPAN"
+18:"A"
+19:"NAV-BTN"
+20:"MAIN"
+21:"ARTICLE"
+22:"P"
+23:"SUP"
+24:"I"
+25:"IFRAME"
+26:"H5"
+27:"H6"
+28:"BR"
+
+CSS Properties
+1: margin
+2: padding
+3: background-color
+4: font-family
+5: scroll-behavior
+
+Javascript Implementation
+On page location.html, Javascript is used to scroll the screen into the focus of the selected section.
+It also changes the inner HTML of the selected button by removing one class, and adding another to change the styling.
+
+On page index.html, Javascript is used for the navigation buttons to open the selected page.
+Javascript function is also running on a loop every second to update the system date and time in the footer of the page.
+
+Bootstrap Implementation
+Bootstrap framework building blocks are used in a variety of places.
+Page location.html uses bootstrap for the navigation menu in the header of the page, styling on the page navigation buttons, and the gallery carousel at the bottom of the page.
+
+On page family.html, bootstrap is used for the nav menu in the header and carousel is used to display pictures of family members.
+
+On page woodworking.html, bootstrap is used for the nav menu in the header and collapse buttons to show and hide containers.
+
+On page index.html, bootstrap is used for styling of the nav buttons in the page body.

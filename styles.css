@@ -1,0 +1,158 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+html {
+    background-color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+header {
+    background-image: linear-gradient(90deg, #A30046, #FDBE57, #0055A3);
+    color: white;
+    padding-left: 0px;
+    block-size: 215px;
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-title {
+    padding-left: 10px;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #424242;
+}
+
+main {
+    display: flex;
+  }
+
+.article-preamble {
+    color: white;
+    flex: 4;
+}
+
+.article-facts {
+    flex: 4;
+    color: white;
+    border: solid gray;
+    padding: 7px;
+    background-color: #8d8d8d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.preamble-container {
+    border:solid gray;
+    padding: 7px;
+    background-color: #8d8d8d;
+    border-radius: 5px;
+    color:white;
+    flex: 4;
+}
+
+.article-attractions {
+  color: white;
+  padding: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1000px;
+}
+
+.article-gallery {
+  color: white;
+  padding: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1000px;
+}
+
+preamble {
+  flex: 4;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 7px;
+}
+
+.form-btn-group button {
+    background-color: #008CBA; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 70%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    border: none;
+  }
+
+  .form-nav {
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+.form-btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+
+/* Add a background color on hover */
+.form-btn-group button:hover {
+    background-color: #648cba;
+  }
+
+  .attr-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #8d8d8d;
+    padding: 10px;
+    column-gap: 5px;
+    row-gap: 5px;
+    border-radius: 5px;
+  }
+
+  .grid-item {
+    padding: 0px;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 200px;
+    margin: auto;
+
+  }
+
+  .grid-picture {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .grid-item-grow {
+    transition: all .2s ease-in-out;
+  }
+
+  .grid-item-grow:hover {
+    transform: scale(1.5);
+  }
+
+  #gallery {
+    color: white;
+
+  }
+
+  .carouselExampleCaptions {
+    position: absolute;
+    left: -124px;
+    top: 1951px;
+    scale:70%;
+  }
+
+
